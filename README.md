@@ -16,7 +16,7 @@ We started by training a cascade classifier about the features of Overwatch with
     
 Because our envisioned application would require real-time detection, performance was an important metric. The entire project was built in C++, and we cut down the size of the analyzed images considerably. This allowed us to process roughly 30 frames of video per second, enough precision to pick up small actions such as a weapon firing.
 
-![Cascade Training Tool. In order to train a cascade classifier model, a tool was created to quickly add metadata to frames of a video about the hero being played](https://raw.githubusercontent.com/mmunson2/demo/main/im/Hero_Identification.png)
+![Output overlay. Text is placed on top of game footage identifying the hero being played and the weapon they're carrying](https://raw.githubusercontent.com/mmunson2/demo/main/im/Hero_Identification.png)
 
 Our hard work paid off! After about a month of development our model could identify certain Overwatch characters with ~80% accuracy. By using a fuzzy logic system, errors in detection were reduced further such that the model wouldn't fluctuate quickly between determinations.  
    
@@ -24,5 +24,19 @@ More details about the Mercy Detector Project: https://github.com/DaviidK/mercy-
    
 Academic paper on our findings: https://github.com/DaviidK/mercy-detector/blob/main/Documentation/Mercy_Detector_Final_Report.pdf
 
+# 2D Terrain Generator
 
+This project is part of a class in which we implemented a game engine from scratch in Javascript. As a final project we were asked to create an addon to the engine that other developers could use. We took inspiration from 2D voxel games such as Terraria and created a terrain generation module.
+
+![Example of what 2D voxel terrain looks like](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terrain_Example1.png)
+
+Our approach was to stack different kind of blocks on top of each other, creating the stratified layers voxel gamers are familiar with. By drawing circles in random or sinusoidal arrangements on the lowest layer of the stack, bumpy hills and mountains could be created. Finally, by identifying the top block on the stack, we could place trees.
+
+![Another terrain generation example](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terrain_Example1.png)
+
+Because this module was intended to be reusable by other developers, effort was made to make each feature as configurable as possible. In the above example, the same tree generation function is used to create cacti.
+
+More details about the 2D Terrain Generator: https://mmunson2.github.io/GameEngineDesign-FinalProject/public_html/index.html
+
+Visualization of how terrain is created: https://mmunson2.github.io/GameEngineDesign-FinalProject/public_html/demo.html
 
