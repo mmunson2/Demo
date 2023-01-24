@@ -32,7 +32,7 @@ This project is part of a class in which we implemented a game engine from scrat
 
 Our approach was to stack different kind of blocks on top of each other, creating the stratified layers voxel gamers are familiar with. By drawing circles in random or sinusoidal arrangements on the lowest layer of the stack, bumpy hills and mountains could be created. Finally, by identifying the top block on the stack, we could place trees.
 
-![Another terrain generation example](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terrain_Example1.png)
+![Another terrain generation example](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terrain_Example2.png)
 
 Because this module was intended to be reusable by other developers, effort was made to make each feature as configurable as possible. In the above example, the same tree generation function is used to create cacti.
 
