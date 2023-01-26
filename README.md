@@ -40,3 +40,12 @@ More details about the 2D Terrain Generator: https://mmunson2.github.io/GameEngi
 
 Visualization of how terrain is created: https://mmunson2.github.io/GameEngineDesign-FinalProject/public_html/demo.html
 
+# Other repositories
+
+This demo is still a work-in-progress so I don't have everything written out yet, but here are some other projects I've been involved in:  
+  
+A networked tic tac toe game built on React and Firebase, named after my cat Enzo. I had a great time writing the AI (for single player games) in a way that it would occasionaly make a less-than-optimal move:  
+https://github.com/mmunson2/EnzoTicTacToe  
+
+DinoText - a tool for game developers that assists in making dynamically generated dialgoue. 
+https://github.com/mmunson2/DinoText
