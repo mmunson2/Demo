@@ -30,6 +30,8 @@ This is a website that emulates a Unix terminal inside of your browser. It resur
 
 ![Terminal Teacher - a website to help a user learn the Unix terminal.](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terminal_Teacher.png)
 
+Website: https://mmunson2.github.io/TerminalTeacher_TS/
+
 GitHub repository: https://github.com/mmunson2/TerminalTeacher_TS
 
 # 2D Terrain Generator
