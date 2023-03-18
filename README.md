@@ -24,6 +24,14 @@ More details about the Mercy Detector Project: https://github.com/DaviidK/mercy-
    
 Academic paper on our findings: https://github.com/DaviidK/mercy-detector/blob/main/Documentation/Mercy_Detector_Final_Report.pdf
 
+## Terminal Teacher
+
+This is a website that emulates a Unix terminal inside of your browser. It resurrects Banzi Buddy who gives you helpful advice on how to use different commands. I originally built it as a final project for a web design course in JavaScript, but have since refactored it into TypeScript.
+
+![Terminal Teacher - a website to help a user learn the Unix terminal.](https://raw.githubusercontent.com/mmunson2/demo/main/im/Terminal_Teacher.png)
+
+GitHub repository: https://github.com/mmunson2/TerminalTeacher_TS
+
 # 2D Terrain Generator
 
 This project is part of a class in which we implemented a game engine from scratch in Javascript. As a final project we were asked to create an addon to the engine that other developers could use. We took inspiration from 2D voxel games such as Terraria and created a terrain generation module.
