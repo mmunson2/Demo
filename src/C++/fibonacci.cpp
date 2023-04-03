@@ -76,4 +76,6 @@ int main() {
         cout << "input: " << i << " result: " << iterativeFibonacci(i) << " invocations: " << invocations << endl;
         invocations = 0;
     }
+
+    return 0;
 }
